@@ -1,39 +1,40 @@
-# 🎯 React Task Manager
+# 🎯 React Task Manager (Assignment Project)
 
-A complete, production-ready Task Manager application built with React, featuring advanced patterns and modern best practices.
+A Task Manager application built using **React** for an assignment, showcasing core React concepts, modern design with TailwindCSS, and basic state management.
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.1.6-blue)
 ![LocalStorage](https://img.shields.io/badge/Storage-LocalStorage-green)
-![Performance](https://img.shields.io/badge/Performance-Optimized-green)
+
+---
 
 ## ✨ Features
 
-### 🌟 Basic Functionality
-- ✅ **Add new tasks** with validation
-- ✅ **Mark tasks as completed** with visual feedback
-- ✅ **Delete tasks** with confirmation
-- ✅ **Filter tasks** - All, Completed, and Pending
-- ✅ **Local Storage persistence** across browser sessions
+### ✅ Basic Functionality
+- Add new tasks with input validation
+- Mark tasks as completed
+- Delete tasks with confirmation
+- Filter tasks: All, Completed, Pending
+- Persist tasks using Local Storage
 
-### ⚛️ Advanced React Features
-- 🎣 **Custom Hook** - `useLocalStorage` for persistent data
-- 🌐 **Context API** - Global state management without prop drilling
-- ⚡ **Performance Optimizations**:
-  - `React.memo` for preventing unnecessary re-renders
-  - `useCallback` and `useMemo` for expensive operations
-  - Optimized rendering with selective updates
-- 🛡️ **Form Validation** - Input validation with error handling
-- 🔥 **HOC Pattern** - `withLoader` for loading states
+### ⚛️ React Concepts Used
+- **Custom Hook**: `useLocalStorage` for saving tasks
+- **Context API**: Global task management without prop drilling
+- **Performance Enhancements**:
+  - `React.memo` to avoid unnecessary re-renders
+  - `useCallback` and `useMemo` for optimized functions and calculations
+- **Higher-Order Component (HOC)**: `withLoader` for reusable loading UI
+- **Form Validation**: Real-time feedback and error handling
 
 ### 💄 UI & Design
-- 🎨 **TailwindCSS** - Modern, responsive design
-- 📱 **Fully Responsive** - Works on desktop, tablet, and mobile
-- 🌈 **Beautiful Animations** - Smooth transitions and hover effects
-- 🎭 **Visual Feedback** - Loading states, confirmations, and status indicators
-- ♿ **Accessibility** - ARIA labels and keyboard navigation
+- Built using **TailwindCSS**
+- Fully **responsive** (works on desktop, tablet, and mobile)
+- Smooth animations and modern layout
+- Accessible UI with keyboard support and ARIA labels
 
-## 📁 Project Structure
+---
+
+## 📁 Folder Structure
 
 ```
 src/
@@ -77,8 +78,6 @@ src/
 ```bash
 npm start      # Start development server
 npm build      # Build for production
-npm test       # Run tests
-npm eject      # Eject from Create React App (irreversible)
 ```
 
 ## 🏗️ Architecture & Patterns
@@ -161,31 +160,6 @@ npm eject      # Eject from Create React App (irreversible)
 - Add database integration
 - Implement cloud sync
 
-## 🧪 Testing
-
-The app includes:
-- Unit test setup with Jest and React Testing Library
-- Component testing examples
-- Integration testing capabilities
-
-Run tests with:
-```bash
-npm test
-```
-
-## 🚀 Deployment
-
-### Build for Production
-```bash
-npm run build
-```
-
-### Deploy Options
-- **Netlify**: Drag and drop the `build` folder
-- **Vercel**: Connect your Git repository
-- **GitHub Pages**: Use `gh-pages` package
-- **Heroku**: Add buildpack for static sites
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -193,10 +167,6 @@ npm run build
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙋‍♂️ Support
 
