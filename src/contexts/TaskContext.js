@@ -25,14 +25,6 @@ export const TaskProvider = ({ children }) => {
   // Use our custom hook to persist tasks in localStorage
   const [tasks, setTasks] = useLocalStorage('tasks', []);
 
-  /**
-   * Add a new task
-   * @param {Object} taskData - Task data object
-   * @param {string} taskData.text - Task title
-   * @param {string} taskData.description - Task description
-   * @param {string} taskData.priority - Task priority (low, medium, high)
-   * @param {string} taskData.dueDate - Task due date (ISO string)
-   */
   const addTask = useCallback((taskData) => {
     const newTask = {
       id: Date.now() + Math.random(), // Simple ID generation

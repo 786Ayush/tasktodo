@@ -1,11 +1,5 @@
 import { useState } from 'react';
 
-/**
- * Custom hook for managing data in localStorage
- * @param {string} key - The localStorage key
- * @param {*} initialValue - Default value if no data exists in localStorage
- * @returns {[*, function]} - Returns [storedValue, setValue] tuple
- */
 const useLocalStorage = (key, initialValue) => {
   // State to store our value
   // Pass initial state function to useState so logic is only executed once
